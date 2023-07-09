@@ -26,7 +26,7 @@ export default function About({}: Props) {
         <h3 className='absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl'>
           About
         </h3>
-        <motion.img
+        <motion.img 
         initial={{
             x: -200,
             opacity: 0,
@@ -43,7 +43,8 @@ export default function About({}: Props) {
         }}
         
         src='./Jonathan2.png'
-        className='-mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-80 md:h-95 xl:h-[700px]'
+        className='-mb-20 md:mb-0 flex-shrink-0 w-40 h-40 mt-4 rounded-full object-cover 
+        md:rounded-lg md:w-80 md:h-95 ms: xl:h-[700px]'
         alt=''
         />
         <div className='space-y-10 px-10 md-px-10'>
