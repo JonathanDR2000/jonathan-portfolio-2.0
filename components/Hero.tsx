@@ -4,6 +4,7 @@ import BackgroundCircles from './BackgroundCircles';
 import Link from 'next/link';
 import About from './About';
 
+
 type Props = {}
 
 export default function Hero({}: Props) {
@@ -23,7 +24,7 @@ export default function Hero({}: Props) {
         <BackgroundCircles/>
         <img
         className='relative rounded-full h-32 w-32 mx-auto object-cover'
-         src="/Jonathan_Image.png"
+         src="./Jonathan_Image.png"
          alt=''
         />
         <div className='z-20'>
