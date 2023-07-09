@@ -42,7 +42,7 @@ export default function About({}: Props) {
             once: true,
         }}
         
-        src='/jonathan2.png'
+        src='./Jonathan2.png'
         className='-mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-80 md:h-95 xl:h-[700px]'
         alt=''
         />
