@@ -19,8 +19,9 @@ export default function Projects({}: Props) {
         z-20 scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]'>
            
 
-                <div className='w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen'> 
-                  <motion.img  className='xl:w-[900px] xl:h-[900px]'
+                <div className='w-screen flex-shrink-0 snap-center 
+                flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen'> 
+                  <motion.img  className='xl:w-[700px] xl:h-[700px] sm:w-[600px] sm:h-[600px]'
                    initial={{ y: -300, opacity: 0,}}
                    transition={{duration: 1.2,}}
                    whileInView={{ opacity: 1, y:0}}

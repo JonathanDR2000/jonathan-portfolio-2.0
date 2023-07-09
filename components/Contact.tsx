@@ -30,38 +30,44 @@ export default function Contact({}: Props) {
             Contact
         </h3>
         <div className='flex flex-col space-y-10 '>
-            <h4 className='text-4xl font-semibold text-center '>
+          <h4 className='pb-20'></h4>
+            <h4 className='text-xl sm:text-4xl font-semibold text-center sm:pt-0 padding-top: 15px; '>
                 I have got just what you need.{''}
                 <span className='decoration-[#F7AB0A]/50 underline'>Lets Talk</span>
             </h4>
             <div className='space-y-10'>
              <div className='flex items-center space-x-5 justify-center'>
-                <PhoneIcon className='text-[#F7AB0A] h-7 w-7 animate-pulse'/>
-                <p className='text-2xl'>+ 666 666 666</p>
+                <PhoneIcon className='text-[#F7AB0A] sm:h-7 sm:w-7 h-5 w-5 animate-pulse'/>
+                <p className='text-xl sm:text-2xl'>+ 666 666 666</p>
              </div>
              <div className='flex items-center space-x-5 justify-center'>
-                <EnvelopeIcon className='text-[#F7AB0A] h-7 w-7 animate-pulse'/>
-                <p className='text-2xl'>jonathandr2000@gmail.com</p>
+                <EnvelopeIcon className='text-[#F7AB0A] h-5 w-5 sm:h-7 sm:w-7 animate-pulse'/>
+                <p className='text-xl sm:text-2xl'>jonathandr2000@gmail.com</p>
              </div>
              <div className='flex items-center space-x-5 justify-center'>
-                <MapPinIcon className='text-[#F7AB0A] h-7 w-7 animate-pulse'/>
-                <p className='text-2xl'>123 developer lave</p>
+                <MapPinIcon className='text-[#F7AB0A] sm:h-7 sm:w-7 h-5 w-5 animate-pulse'/>
+                <p className='text-xl sm:text-2xl'>123 developer lave</p>
              </div>
            </div>
-           <form onSubmit={handleSubmit(onSubmit)} className='flex flex-col space-y-2 w-fit mx-auto'>
+           <form onSubmit={handleSubmit(onSubmit)} className='flex flex-col space-y-2 
+           w-[375px] sm:w-fit mx-auto'>
              <div className='flex space-x-2'>
                 <input {...register('name')}
-                placeholder='Name' className='contactInput' type='text'/> 
+                placeholder='Name' className='contactInput w-[183px] sm:w-fit' type='text'/> 
                 <input {...register('email')}
-                placeholder='Email' className='contactInput' type='email'/>
+                placeholder='Email' className='contactInput  w-[183px] sm:w-fit' type='email'/>
              </div>
 
-             <input {...register('subject')} placeholder='Subject' className='contactInput' type='text'/>
+             <input {...register('subject')} placeholder='Subject' 
+             className='contactInput' type='text'/>
 
-             <textarea  {...register('message')} placeholder='Message' className='contactInput'></textarea>
+             <textarea  {...register('message')} placeholder='Message' 
+             className='contactInput'></textarea>
              <button 
              type='submit'
-             className='bg-[#F7AB0A] py-5 px-10 rounded-md text-black font-bold text-lg'>Submit</button>
+             className='bg-[#F7AB0A] py-5 px-10 
+             rounded-md text-black font-bold text-lg '>Submit
+             </button>
            </form>
         </div>
     </motion.div>
