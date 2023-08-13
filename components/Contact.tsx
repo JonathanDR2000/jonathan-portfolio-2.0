@@ -32,21 +32,22 @@ export default function Contact({}: Props) {
         <div className='flex flex-col space-y-10 '>
           <h4 className='pb-20'></h4>
             <h4 className='text-xl sm:text-4xl font-semibold text-center sm:pt-0 padding-top: 15px; '>
-                I have got just what you need.{''}
+                If you are interested. {''}
                 <span className='decoration-[#F7AB0A]/50 underline'>Lets Talk</span>
             </h4>
             <div className='space-y-10'>
-             <div className='flex items-center space-x-5 justify-center'>
+             {/*<div className='flex items-center space-x-5 justify-center'>
                 <PhoneIcon className='text-[#F7AB0A] sm:h-7 sm:w-7 h-5 w-5 animate-pulse'/>
                 <p className='text-xl sm:text-2xl'>+ 666 666 666</p>
              </div>
+             */}
              <div className='flex items-center space-x-5 justify-center'>
                 <EnvelopeIcon className='text-[#F7AB0A] h-5 w-5 sm:h-7 sm:w-7 animate-pulse'/>
                 <p className='text-xl sm:text-2xl'>jonathandr2000@gmail.com</p>
              </div>
              <div className='flex items-center space-x-5 justify-center'>
                 <MapPinIcon className='text-[#F7AB0A] sm:h-7 sm:w-7 h-5 w-5 animate-pulse'/>
-                <p className='text-xl sm:text-2xl'>123 developer lave</p>
+                <p className='text-xl sm:text-2xl'>Barcelona, Spain</p>
              </div>
            </div>
            <form onSubmit={handleSubmit(onSubmit)} className='flex flex-col space-y-2 

@@ -27,9 +27,9 @@ export default function Header({}: Props) {
       }}
       className='flex flex-row items-center'>
         
-        <SocialIcon url='https://www.youtube.com/@SonnySangha' fgColor='gray' bgColor='transparent'/>
-        <SocialIcon url='https://www.youtube.com/@SonnySangha' fgColor='gray' bgColor='transparent'/>
-        <SocialIcon url='https://www.youtube.com/@SonnySangha' fgColor='gray' bgColor='transparent'/>
+      
+        <SocialIcon url='https://es.linkedin.com/in/jonathan-diego-rodr%C3%ADguez-757363185' fgColor='gray' bgColor='transparent'/>
+        <SocialIcon url='https://user-4611825.artstation.com/' fgColor='gray' bgColor='transparent'/>
 
 
       </motion.div>

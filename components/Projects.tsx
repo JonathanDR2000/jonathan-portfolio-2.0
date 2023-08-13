@@ -20,7 +20,7 @@ export default function Projects({}: Props) {
         z-20 scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]'>
            
            <div className='w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen'> 
-                  <motion.img className='xl:w-[900px] xl:h-[900px]'
+                  <motion.img className='xl:w-[684px] xl:h-[782px]'
                    initial={{ y: -300, opacity: 0,}}
                    transition={{duration: 1.2,}}
                    whileInView={{ opacity: 1, y:0}}
@@ -72,7 +72,7 @@ to do the hair with Xgen.
                    
                 </div>
                 <div className='w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen'> 
-                  <motion.img className='xl:w-[900px] xl:h-[900px]'
+                  <motion.img className='xl:w-[803px] xl:h-[446px]'
                    initial={{ y: -300, opacity: 0,}}
                    transition={{duration: 1.2,}}
                    whileInView={{ opacity: 1, y:0}}
@@ -98,7 +98,7 @@ Made with Arnolds lights
                 </div>
 
                 <div className='w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen'> 
-                  <motion.img className='xl:w-[900px] xl:h-[900px]'
+                  <motion.img className='xl:w-[829px] xl:h-[550px]'
                    initial={{ y: -300, opacity: 0,}}
                    transition={{duration: 1.2,}}
                    whileInView={{ opacity: 1, y:0}}
@@ -121,7 +121,7 @@ Made with Arnolds lights
                    
                 </div>
                 <div className='w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen'> 
-                  <motion.img className='xl:w-[900px] xl:h-[900px]'
+                  <motion.img className='xl:w-[556px] xl:h-[506px]'
                    initial={{ y: -300, opacity: 0,}}
                    transition={{duration: 1.2,}}
                    whileInView={{ opacity: 1, y:0}}
@@ -147,7 +147,7 @@ VII game
                    
                 </div>
                 <div className='w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen'> 
-                  <motion.img className='xl:w-[900px] xl:h-[900px]'
+                  <motion.img className='xl:w-[435px] xl:h-[565px]'
                    initial={{ y: -300, opacity: 0,}}
                    transition={{duration: 1.2,}}
                    whileInView={{ opacity: 1, y:0}}
@@ -170,7 +170,7 @@ VII game
                    
                 </div>
                 <div className='w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen'> 
-                  <motion.img className='xl:w-[900px] xl:h-[900px]'
+                  <motion.img className='xl:w-[400px] xl:h-[256px]'
                    initial={{ y: -300, opacity: 0,}}
                    transition={{duration: 1.2,}}
                    whileInView={{ opacity: 1, y:0}}
@@ -194,7 +194,7 @@ then the leafs has been implemented in Substance Designer.
                    
                 </div>
                 <div className='w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen'> 
-                  <motion.img className='xl:w-[900px] xl:h-[900px]'
+                  <motion.img className='xl:w-[1160px] xl:h-[641px]'
                    initial={{ y: -300, opacity: 0,}}
                    transition={{duration: 1.2,}}
                    whileInView={{ opacity: 1, y:0}}
@@ -221,7 +221,7 @@ plemented in a game
                 </div>
                 <div className='w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen'> 
                 <Link href='https://vimeo.com/403338365'>
-                  <motion.img className='xl:w-[900px] xl:h-[900px]'
+                  <motion.img className='xl:w-[300px] xl:h-[332px]'
                    initial={{ y: -300, opacity: 0,}}
                    transition={{duration: 1.2,}}
                    whileInView={{ opacity: 1, y:0}}
@@ -248,33 +248,7 @@ the character plus lights.
                    
                 </div>
                 <div className='w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen'> 
-                  <motion.img className='xl:w-[900px] xl:h-[900px]'
-                   initial={{ y: -300, opacity: 0,}}
-                   transition={{duration: 1.2,}}
-                   whileInView={{ opacity: 1, y:0}}
-                   viewport={{once:true}}
-                    src='/Captura6.png'
-                    alt=''
-                  />
-                  <div className='space-y-10 px-10 md:px-10 max-w-6xl'>
-                    <h4 className='text-4xl font-semibold text-center'>
-                      <span className='underline decoration-[#F7AB0A]/50'>
-                          Case Study 2 of 5:
-                      </span> UPS clone
-                    </h4>
-                    <p className='text-lg text-center md:text-left'>
-                    It has been
-created in Houdini and also
-have been added some
-stars to create a better environment
-
-                    </p>
-                    
-                   </div>
-                   
-                </div>
-                <div className='w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen'> 
-                  <motion.img className='xl:w-[900px] xl:h-[900px]'
+                  <motion.img className='xl:w-[592px] xl:h-[338px]'
                    initial={{ y: -300, opacity: 0,}}
                    transition={{duration: 1.2,}}
                    whileInView={{ opacity: 1, y:0}}
@@ -297,12 +271,12 @@ stars to create a better environment
                    
                 </div>
                 <div className='w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen'> 
-                  <motion.img className='xl:w-[900px] xl:h-[900px]'
+                  <motion.img className='xl:w-[1016px] xl:h-[427px]'
                    initial={{ y: -300, opacity: 0,}}
                    transition={{duration: 1.2,}}
                    whileInView={{ opacity: 1, y:0}}
                    viewport={{once:true}}
-                    src='/Captura8.png'
+                    src='/Captura9.png'
                     alt=''
                   />
                   <div className='space-y-10 px-10 md:px-10 max-w-6xl'>
@@ -321,7 +295,33 @@ stars to create a better environment
                 </div>
                 
                 <div className='w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen'> 
-                  <motion.img className='xl:w-[900px] xl:h-[900px]'
+                <Link href='https://disney-clone3.vercel.app/'>
+                  <motion.img className='xl:w-[1280px] xl:h-[585px]'
+                   initial={{ y: -300, opacity: 0,}}
+                   transition={{duration: 1.2,}}
+                   whileInView={{ opacity: 1, y:0}}
+                   viewport={{once:true}}
+                    src='/disney.png'
+                    alt='disney clone'
+                  />
+                  </Link>
+                  <div className='space-y-10 px-10 md:px-10 max-w-6xl'>
+                    <h4 className='text-4xl font-semibold text-center'>
+                      <span className='underline decoration-[#F7AB0A]/50'>
+                          Case Study 2 of 5:
+                      </span> UPS clone
+                    </h4>
+                    <p className='text-lg text-center md:text-left'>
+                    Filters web made in React Js
+
+                    </p>
+                    
+                   </div>
+                   
+                </div>
+                
+                <div className='w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen'> 
+                  <motion.img className='xl:w-[890px] xl:h-[510px]'
                    initial={{ y: -300, opacity: 0,}}
                    transition={{duration: 1.2,}}
                    whileInView={{ opacity: 1, y:0}}

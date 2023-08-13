@@ -24,7 +24,7 @@ export default function ExperienceCard({}: Props) {
         <h4 className='text-4xl font-light'> UPC</h4>
         <p className='font-bold text-2xl mt-1'>Multimedia</p>
         <div className='flex sace-x-2 my-2'>
-          <img
+          {/*<img
           className='h-10 w-10 rounded-full'
           src='/logo-upc-universidad-politecnica-cataluna.jpg'
           alt=''
@@ -39,14 +39,15 @@ export default function ExperienceCard({}: Props) {
           src='/logo-upc-universidad-politecnica-cataluna.jpg'
           alt=''
           />
+  */}
         </div>
         <p className='uppercase py-5 text-gray-300'>Started: 2018  -  Ended: 2022</p>
         <ul className='list-disc space-y-4 ml-5 text-lg'>
-            <li>Learnt to develop websites</li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li>Learned to develop websites</li>
+            <li>Made several 3D models</li>
+            <li>Animate charactes and objects</li>
+            <li>Skilled at several softwares</li>
+          
         </ul>
      </div>
    </article>
