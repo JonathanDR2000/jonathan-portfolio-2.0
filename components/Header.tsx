@@ -34,7 +34,7 @@ export default function Header({}: Props) {
 
       </motion.div>
       
-      
+      <Link href='#contact'>
       <motion.div
        initial={{
          x: 500,
@@ -60,6 +60,7 @@ export default function Header({}: Props) {
       />
       <p className='uppercase hidden md:inline-flex text-sm text-gray-300'>Get in touch</p>
       </motion.div>
+      </Link>
      
       
 

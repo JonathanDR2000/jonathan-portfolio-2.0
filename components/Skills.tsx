@@ -42,6 +42,7 @@ export default function Skills({}: Props) {
         </h3>
         <div className='grid grid-cols-4 gap-5'>
             <Skill />
+            
             <Skill2 />
             <Skill3 />
             <Skill4 />
@@ -53,7 +54,7 @@ export default function Skills({}: Props) {
             <Skill10 />
             <Skill11 />
             <Skill12 />
-            <Skill13/>
+  <Skill13/> 
             
         </div>
     </motion.div>

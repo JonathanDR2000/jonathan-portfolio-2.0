@@ -24,7 +24,7 @@ export default function Hero({}: Props) {
         <BackgroundCircles/>
         <img
         className='relative rounded-full h-32 w-32 mx-auto object-cover'
-         src="./Jonathan_Image.png"
+         src="./hero_profile2.jpg"
          alt=''
         />
         <div className='z-20'>
