@@ -87,7 +87,7 @@ to do the hair with Xgen.
                     <h4 className='sm:text-4xl text-2xl font-semibold text-center'>
                       <span className='underline decoration-[#F7AB0A]/50'>
                       Project 14 out of 14:
-                      </span> Tim Burton's website design
+                      </span> Tim Burtons website design
                     </h4>
                     <p className='text-lg text-center md:text-left'>
                       Design made in Photoshop.
@@ -185,7 +185,7 @@ VII game
                     <h4 className='sm:text-4xl text-2xl font-semibold text-center'>
                       <span className='underline decoration-[#F7AB0A]/50'>
                       Project 6 out of 14:
-                      </span> Coke's 3D model
+                      </span> Cokes 3D model
                     </h4>
                     <p className='text-lg text-center md:text-left'>
                     Made in 3DS Max and using VRay
@@ -208,7 +208,7 @@ VII game
                     <h4 className='sm:text-4xl text-2xl font-semibold text-center'>
                       <span className='underline decoration-[#F7AB0A]/50'>
                       Project 7 out of 14:
-                      </span> Bush's model
+                      </span> Bushs model
                     </h4>
                     <p className='text-lg text-center md:text-left'>
                     The base was modeled in Maya and
