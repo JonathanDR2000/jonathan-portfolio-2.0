@@ -21,7 +21,7 @@ export default function Projects({}: Props) {
           
            <div className='w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen'> 
            <Link href='https://www.youtube.com/watch?v=j75oEUyze6M'>
-                  <motion.img className='xl:w-[684px] xl:h-[782px]'
+                  <motion.img className='xl:w-[1440px] xl:h-[810px]'
                    initial={{ y: -300, opacity: 0,}}
                    transition={{duration: 1.2,}}
                    whileInView={{ opacity: 1, y:0}}
@@ -73,30 +73,7 @@ to do the hair with Xgen.
                    </div>
                    
                 </div>
-                <div className='w-screen flex-shrink-0 snap-center 
-                flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen'> 
-                  <motion.img  className='xl:w-[700px] xl:h-[700px] sm:w-[600px] sm:h-[600px]'
-                   initial={{ y: -300, opacity: 0,}}
-                   transition={{duration: 1.2,}}
-                   whileInView={{ opacity: 1, y:0}}
-                   viewport={{once:true}}
-                    src='/item.jpg'
-                    alt=''
-                  />
-                  <div className='space-y-10 px-10 md:px-10 max-w-6xl'>
-                    <h4 className='sm:text-4xl text-2xl font-semibold text-center'>
-                      <span className='underline decoration-[#F7AB0A]/50'>
-                      Project 14 out of 14:
-                      </span> Tim Burtons website design
-                    </h4>
-                    <p className='text-lg text-center md:text-left'>
-                      Design made in Photoshop.
-
-                    </p>
-                    
-                   </div>
-                   
-                </div>
+                
                 <div className='w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen'> 
                   <motion.img className='xl:w-[803px] xl:h-[446px]'
                    initial={{ y: -300, opacity: 0,}}
@@ -236,9 +213,7 @@ then the leafs has been implemented in Substance Designer.
                     </h4>
                     <p className='text-lg text-center md:text-left'>
                     Modeled in Maya and painted in
-Substance Painter, then it was im
--
-plemented in a game
+Substance Painter, then it was implemented in a game
 
                     </p>
                     
@@ -291,7 +266,7 @@ the character plus lights.
                       </span> Game made in unity
                     </h4>
                     <p className='text-lg text-center md:text-left'>
-                      aaa
+                      Videogame made for collage final project. Models from Maya and developed in Unity
 
                     </p>
                     
@@ -365,6 +340,30 @@ the character plus lights.
                     </h4>
                     <p className='text-lg text-center md:text-left'>
                     Add proposal for Nike made in Photoshop
+
+                    </p>
+                    
+                   </div>
+                   
+                </div>
+                <div className='w-screen flex-shrink-0 snap-center 
+                flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen'> 
+                  <motion.img  className='xl:w-[700px] xl:h-[700px] sm:w-[600px] sm:h-[600px]'
+                   initial={{ y: -300, opacity: 0,}}
+                   transition={{duration: 1.2,}}
+                   whileInView={{ opacity: 1, y:0}}
+                   viewport={{once:true}}
+                    src='/item.jpg'
+                    alt=''
+                  />
+                  <div className='space-y-10 px-10 md:px-10 max-w-6xl'>
+                    <h4 className='sm:text-4xl text-2xl font-semibold text-center'>
+                      <span className='underline decoration-[#F7AB0A]/50'>
+                      Project 14 out of 14:
+                      </span> Tim Burtons website design
+                    </h4>
+                    <p className='text-lg text-center md:text-left'>
+                      Design made in Photoshop.
 
                     </p>
                     
