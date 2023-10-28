@@ -18,7 +18,30 @@ export default function Projects({}: Props) {
         </h3>
         <div className='relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory
         z-20 scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]'>
-          
+           <div className='w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen'> 
+           <Link href='https://www.youtube.com/watch?v=y4l3YFxsnUw'>
+                  <motion.img className='xl:w-[1440px] xl:h-[810px]'
+                   initial={{ y: -300, opacity: 0,}}
+                   transition={{duration: 1.2,}}
+                   whileInView={{ opacity: 1, y:0}}
+                   viewport={{once:true}}
+                    src='/Portfolio_animation_10014.jpg'
+                    alt=''
+                  />
+                  </Link>
+                  <div className='space-y-10 px-10 md:px-10 max-w-6xl'>
+                    <h4 className='sm:text-4xl text-2xl font-semibold text-center'>
+                      <span className='underline decoration-[#F7AB0A]/50'>
+                          Project 1 out of 16:
+                      </span> Animation
+                    </h4>
+                    <p className='text-lg text-center md:text-left'>
+                    Modeled in Zbrush, rogged in Maya and haired using Xgen.
+                    </p>
+                    
+                   </div>
+                   
+                </div>
            <div className='w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen'> 
            <Link href='https://www.youtube.com/watch?v=j75oEUyze6M'>
                   <motion.img className='xl:w-[1440px] xl:h-[810px]'
@@ -33,7 +56,7 @@ export default function Projects({}: Props) {
                   <div className='space-y-10 px-10 md:px-10 max-w-6xl'>
                     <h4 className='sm:text-4xl text-2xl font-semibold text-center'>
                       <span className='underline decoration-[#F7AB0A]/50'>
-                          Project 1 out of 14:
+                          Project 2 out of 16:
                       </span> Lip Syc
                     </h4>
                     <p className='text-lg text-center md:text-left'>
@@ -57,7 +80,7 @@ that exported textured in Substance Painter and imported into maya in order to r
                   <div className='space-y-10 px-10 md:px-10 max-w-6xl'>
                     <h4 className='sm:text-4xl text-2xl  font-semibold text-center'>
                       <span className='underline decoration-[#F7AB0A]/50'>
-                      Project 2 out of 14:
+                      Project 3 out of 16:
                       </span> Zbrush Model
                     </h4>
                     <p className='text-lg text-center md:text-left'>
@@ -86,7 +109,7 @@ to do the hair with Xgen.
                   <div className='space-y-10 px-10 md:px-10 max-w-6xl'>
                     <h4 className='sm:text-4xl text-2xl font-semibold text-center'>
                       <span className='underline decoration-[#F7AB0A]/50'>
-                      Project 3 out of 14:
+                      Project 4 out of 16:
                       </span> 3D models and lightning
                     </h4>
                     <p className='text-lg text-center md:text-left'>
@@ -112,7 +135,7 @@ Made with Arnolds lights
                   <div className='space-y-10 px-10 md:px-10 max-w-6xl'>
                     <h4 className='sm:text-4xl text-2xl font-semibold text-center'>
                       <span className='underline decoration-[#F7AB0A]/50'>
-                      Project 4 out of 14:
+                      Project 5 out of 16:
                       </span> Inserting 3D model inot an image
                     </h4>
                     <p className='text-lg text-center md:text-left'>
@@ -135,7 +158,7 @@ Made with Arnolds lights
                   <div className='space-y-10 px-10 md:px-10 max-w-6xl'>
                     <h4 className='sm:text-4xl text-2xl font-semibold text-center'>
                       <span className='underline decoration-[#F7AB0A]/50'>
-                      Project 5 out of 14:
+                      Project 6 out of 16:
                       </span> Character modelling
                     </h4>
                     <p className='text-lg text-center md:text-left'>
@@ -161,7 +184,7 @@ VII game
                   <div className='space-y-10 px-10 md:px-10 max-w-6xl'>
                     <h4 className='sm:text-4xl text-2xl font-semibold text-center'>
                       <span className='underline decoration-[#F7AB0A]/50'>
-                      Project 6 out of 14:
+                      Project 7 out of 16:
                       </span> Cokes 3D model
                     </h4>
                     <p className='text-lg text-center md:text-left'>
@@ -184,7 +207,7 @@ VII game
                   <div className='space-y-10 px-10 md:px-10 max-w-6xl'>
                     <h4 className='sm:text-4xl text-2xl font-semibold text-center'>
                       <span className='underline decoration-[#F7AB0A]/50'>
-                      Project 7 out of 14:
+                      Project 8 out of 16:
                       </span> Bushs model
                     </h4>
                     <p className='text-lg text-center md:text-left'>
@@ -208,7 +231,7 @@ then the leafs has been implemented in Substance Designer.
                   <div className='space-y-10 px-10 md:px-10 max-w-6xl'>
                     <h4 className='sm:text-4xl text-2xl font-semibold text-center'>
                       <span className='underline decoration-[#F7AB0A]/50'>
-                      Project 8 out of 14:
+                      Project 9 out of 16:
                       </span> Nebula VFX model
                     </h4>
                     <p className='text-lg text-center md:text-left'>
@@ -235,7 +258,7 @@ Substance Painter, then it was implemented in a game
                   <div className='space-y-10 px-10 md:px-10 max-w-6xl'>
                     <h4 className='sm:text-4xl text-2xl font-semibold text-center'>
                       <span className='underline decoration-[#F7AB0A]/50'>
-                      Project 9 out of 14:
+                      Project 10 out of 16:
                       </span> BB8 animation
                     </h4>
                     <p className='text-lg text-center md:text-left'>
@@ -262,7 +285,7 @@ the character plus lights.
                   <div className='space-y-10 px-10 md:px-10 max-w-6xl'>
                     <h4 className='text-4xl font-semibold text-center'>
                       <span className='underline decoration-[#F7AB0A]/50'>
-                      Project 10 out of 14:
+                      Project 11 out of 16:
                       </span> Game made in unity
                     </h4>
                     <p className='text-lg text-center md:text-left'>
@@ -285,7 +308,7 @@ the character plus lights.
                   <div className='space-y-10 px-10 md:px-10 max-w-6xl'>
                     <h4 className='sm:text-4xl text-2xl font-semibold text-center'>
                       <span className='underline decoration-[#F7AB0A]/50'>
-                      Project 11 out of 14:
+                      Project 12 out of 16:
                       </span> React js filter
                     </h4>
                     <p className='text-lg text-center md:text-left'>
@@ -298,7 +321,7 @@ the character plus lights.
                 </div>
                 
                 <div className='w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen'> 
-                <Link href='https://disney-clone3.vercel.app/'>
+                <Link href='https://jonathandr2000.github.io/TimBurton/'>
                   <motion.img className='xl:w-[1280px] xl:h-[585px]'
                    initial={{ y: -300, opacity: 0,}}
                    transition={{duration: 1.2,}}
@@ -311,11 +334,36 @@ the character plus lights.
                   <div className='space-y-10 px-10 md:px-10 max-w-6xl'>
                     <h4 className='sm:text-4xl text-2xl font-semibold text-center'>
                       <span className='underline decoration-[#F7AB0A]/50'>
-                      Project 12 out of 14:
+                      Project 13 out of 16:
+                      </span> Tim Burtons Website
+                    </h4>
+                    <p className='text-lg text-center md:text-left'>
+                    Tim Burton shop made in HTML.
+
+                    </p>
+                    
+                   </div>
+                   
+                </div>
+                <div className='w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen'> 
+                <Link href='https://disney-clone3.vercel.app/'>
+                  <motion.img className='xl:w-[1280px] xl:h-[585px]'
+                   initial={{ y: -300, opacity: 0,}}
+                   transition={{duration: 1.2,}}
+                   whileInView={{ opacity: 1, y:0}}
+                   viewport={{once:true}}
+                    src='/tb.png'
+                    alt='disney clone'
+                  />
+                  </Link>
+                  <div className='space-y-10 px-10 md:px-10 max-w-6xl'>
+                    <h4 className='sm:text-4xl text-2xl font-semibold text-center'>
+                      <span className='underline decoration-[#F7AB0A]/50'>
+                      Project 14 out of 16:
                       </span> Disney + clone
                     </h4>
                     <p className='text-lg text-center md:text-left'>
-                    Filters web made in React Js
+                    Disney + website made in React Js
 
                     </p>
                     
@@ -335,7 +383,7 @@ the character plus lights.
                   <div className='space-y-10 px-10 md:px-10 max-w-6xl'>
                     <h4 className='sm:text-4xl text-2xl font-semibold text-center'>
                       <span className='underline decoration-[#F7AB0A]/50'>
-                      Project 13 out of 14:
+                      Project 15 out of 16:
                       </span> Ad proposal design
                     </h4>
                     <p className='text-lg text-center md:text-left'>
@@ -359,7 +407,7 @@ the character plus lights.
                   <div className='space-y-10 px-10 md:px-10 max-w-6xl'>
                     <h4 className='sm:text-4xl text-2xl font-semibold text-center'>
                       <span className='underline decoration-[#F7AB0A]/50'>
-                      Project 14 out of 14:
+                      Project 16 out of 16:
                       </span> Tim Burtons website design
                     </h4>
                     <p className='text-lg text-center md:text-left'>
