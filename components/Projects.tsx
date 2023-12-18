@@ -30,12 +30,12 @@ export default function Projects({}: Props) {
                   />
                   </Link>
                   <div className='space-y-10 px-10 md:px-10 max-w-6xl'>
-                    <h4 className='sm:text-4xl text-2xl font-semibold text-center'>
+                    <h4 className='sm:text-4xl text-xl font-semibold text-center'>
                       <span className='underline decoration-[#F7AB0A]/50'>
                           Project 1 out of 16:
                       </span> Animation
                     </h4>
-                    <p className='text-lg text-center md:text-left'>
+                    <p className='text-base text-center md:text-left'>
                     Modeled in Zbrush, rogged in Maya and haired using Xgen.
                     </p>
                     
@@ -54,12 +54,12 @@ export default function Projects({}: Props) {
                   />
                   </Link>
                   <div className='space-y-10 px-10 md:px-10 max-w-6xl'>
-                    <h4 className='sm:text-4xl text-2xl font-semibold text-center'>
+                    <h4 className='sm:text-4xl text-xl font-semibold text-center'>
                       <span className='underline decoration-[#F7AB0A]/50'>
                           Project 2 out of 16:
                       </span> Lip Syc
                     </h4>
-                    <p className='text-lg text-center md:text-left'>
+                    <p className='text-base text-center md:text-left'>
                     Modeled in Zbrush, after
 that exported textured in Substance Painter and imported into maya in order to rigged it
                     </p>
@@ -78,12 +78,12 @@ that exported textured in Substance Painter and imported into maya in order to r
                     alt=''
                   />
                   <div className='space-y-10 px-10 md:px-10 max-w-6xl'>
-                    <h4 className='sm:text-4xl text-2xl  font-semibold text-center'>
+                    <h4 className='sm:text-4xl text-xl  font-semibold text-center'>
                       <span className='underline decoration-[#F7AB0A]/50'>
                       Project 3 out of 16:
                       </span> Zbrush Model
                     </h4>
-                    <p className='text-lg text-center md:text-left'>
+                    <p className='text-base text-center md:text-left'>
                     Modeled in Zbrush, after
 that exported to Substance
 painter to create the base
@@ -107,12 +107,12 @@ to do the hair with Xgen.
                     alt=''
                   />
                   <div className='space-y-10 px-10 md:px-10 max-w-6xl'>
-                    <h4 className='sm:text-4xl text-2xl font-semibold text-center'>
+                    <h4 className='sm:text-4xl text-xl font-semibold text-center'>
                       <span className='underline decoration-[#F7AB0A]/50'>
                       Project 4 out of 16:
                       </span> 3D models and lightning
                     </h4>
-                    <p className='text-lg text-center md:text-left'>
+                    <p className='text-base text-center md:text-left'>
                     Lighted and modeled in
 Maya.
 Made with Arnolds lights
@@ -133,12 +133,12 @@ Made with Arnolds lights
                     alt=''
                   />
                   <div className='space-y-10 px-10 md:px-10 max-w-6xl'>
-                    <h4 className='sm:text-4xl text-2xl font-semibold text-center'>
+                    <h4 className='sm:text-4xl text-xl font-semibold text-center'>
                       <span className='underline decoration-[#F7AB0A]/50'>
                       Project 5 out of 16:
                       </span> Inserting 3D model inot an image
                     </h4>
-                    <p className='text-lg text-center md:text-left'>
+                    <p className='text-base text-center md:text-left'>
                     Made in 3DsMax (model not mine)
 
                     </p>
@@ -156,12 +156,12 @@ Made with Arnolds lights
                     alt=''
                   />
                   <div className='space-y-10 px-10 md:px-10 max-w-6xl'>
-                    <h4 className='sm:text-4xl text-2xl font-semibold text-center'>
+                    <h4 className='sm:text-4xl text-xl font-semibold text-center'>
                       <span className='underline decoration-[#F7AB0A]/50'>
                       Project 6 out of 16:
                       </span> Character modelling
                     </h4>
-                    <p className='text-lg text-center md:text-left'>
+                    <p className='text-base text-center md:text-left'>
                     Character modeled in
 Zbrush. The character is
 Cloud from Final Fantasy
@@ -182,12 +182,12 @@ VII game
                     alt=''
                   />
                   <div className='space-y-10 px-10 md:px-10 max-w-6xl'>
-                    <h4 className='sm:text-4xl text-2xl font-semibold text-center'>
+                    <h4 className='sm:text-4xl text-xl font-semibold text-center'>
                       <span className='underline decoration-[#F7AB0A]/50'>
                       Project 7 out of 16:
                       </span> Cokes 3D model
                     </h4>
-                    <p className='text-lg text-center md:text-left'>
+                    <p className='text-base text-center md:text-left'>
                     Made in 3DS Max and using VRay
 
                     </p>
@@ -205,12 +205,12 @@ VII game
                     alt=''
                   />
                   <div className='space-y-10 px-10 md:px-10 max-w-6xl'>
-                    <h4 className='sm:text-4xl text-2xl font-semibold text-center'>
+                    <h4 className='sm:text-4xl text-xl font-semibold text-center'>
                       <span className='underline decoration-[#F7AB0A]/50'>
                       Project 8 out of 16:
                       </span> Bushs model
                     </h4>
-                    <p className='text-lg text-center md:text-left'>
+                    <p className='text-base text-center md:text-left'>
                     The base was modeled in Maya and
 then the leafs has been implemented in Substance Designer.
 
@@ -229,12 +229,12 @@ then the leafs has been implemented in Substance Designer.
                     alt=''
                   />
                   <div className='space-y-10 px-10 md:px-10 max-w-6xl'>
-                    <h4 className='sm:text-4xl text-2xl font-semibold text-center'>
+                    <h4 className='sm:text-4xl text-xl font-semibold text-center'>
                       <span className='underline decoration-[#F7AB0A]/50'>
                       Project 9 out of 16:
                       </span> Nebula VFX model
                     </h4>
-                    <p className='text-lg text-center md:text-left'>
+                    <p className='text-base text-center md:text-left'>
                     Modeled in Maya and painted in
 Substance Painter, then it was implemented in a game
 
@@ -256,12 +256,12 @@ Substance Painter, then it was implemented in a game
                   </Link>
                   
                   <div className='space-y-10 px-10 md:px-10 max-w-6xl'>
-                    <h4 className='sm:text-4xl text-2xl font-semibold text-center'>
+                    <h4 className='sm:text-4xl text-xl font-semibold text-center'>
                       <span className='underline decoration-[#F7AB0A]/50'>
                       Project 10 out of 16:
                       </span> BB8 animation
                     </h4>
-                    <p className='text-lg text-center md:text-left'>
+                    <p className='text-base text-center md:text-left'>
                     Animation of BB8 made in 3Ds Max
 for a collage work. Moivement of
 the character plus lights.
@@ -283,12 +283,12 @@ the character plus lights.
                   />
                   </Link>
                   <div className='space-y-10 px-10 md:px-10 max-w-6xl'>
-                    <h4 className='text-4xl font-semibold text-center'>
+                    <h4 className='sm:text-4xl text-xl font-semibold text-center'>
                       <span className='underline decoration-[#F7AB0A]/50'>
                       Project 11 out of 16:
                       </span> Game made in unity
                     </h4>
-                    <p className='text-lg text-center md:text-left'>
+                    <p className='text-base text-center md:text-left'>
                       Videogame made for collage final project. Models from Maya and developed in Unity
 
                     </p>
@@ -306,12 +306,12 @@ the character plus lights.
                     alt=''
                   />
                   <div className='space-y-10 px-10 md:px-10 max-w-6xl'>
-                    <h4 className='sm:text-4xl text-2xl font-semibold text-center'>
+                    <h4 className='sm:text-4xl text-xl font-semibold text-center'>
                       <span className='underline decoration-[#F7AB0A]/50'>
                       Project 12 out of 16:
                       </span> React js filter
                     </h4>
-                    <p className='text-lg text-center md:text-left'>
+                    <p className='text-base text-center md:text-left'>
                     Filters web made in React Js
 
                     </p>
@@ -332,13 +332,13 @@ the character plus lights.
                   />
                   </Link>
                   <div className='space-y-10 px-10 md:px-10 max-w-6xl'>
-                    <h4 className='sm:text-4xl text-2xl font-semibold text-center'>
+                    <h4 className='sm:text-4xl text-xl font-semibold text-center'>
                       <span className='underline decoration-[#F7AB0A]/50'>
                       Project 13 out of 16:
-                      </span> Tim Burtons Website
+                      </span> Disney + clone
                     </h4>
-                    <p className='text-lg text-center md:text-left'>
-                    Tim Burton shop made in HTML.
+                    <p className='text-base text-center md:text-left'>
+                    Disney + website made in React Js
 
                     </p>
                     
@@ -357,14 +357,14 @@ the character plus lights.
                   />
                   </Link>
                   <div className='space-y-10 px-10 md:px-10 max-w-6xl'>
-                    <h4 className='sm:text-4xl text-2xl font-semibold text-center'>
+                    <h4 className='sm:text-4xl text-xl font-semibold text-center'>
                       <span className='underline decoration-[#F7AB0A]/50'>
                       Project 14 out of 16:
-                      </span> Disney + clone
+                      </span> Tim Burtons Website
                     </h4>
-                    <p className='text-lg text-center md:text-left'>
-                    Disney + website made in React Js
-
+                    <p className='text-base text-center md:text-left'>
+                    Tim Burton shop made in HTML.
+    
                     </p>
                     
                    </div>
@@ -381,12 +381,12 @@ the character plus lights.
                     alt=''
                   />
                   <div className='space-y-10 px-10 md:px-10 max-w-6xl'>
-                    <h4 className='sm:text-4xl text-2xl font-semibold text-center'>
+                    <h4 className='sm:text-4xl text-xl font-semibold text-center'>
                       <span className='underline decoration-[#F7AB0A]/50'>
                       Project 15 out of 16:
                       </span> Ad proposal design
                     </h4>
-                    <p className='text-lg text-center md:text-left'>
+                    <p className='text-base text-center md:text-left'>
                     Add proposal for Nike made in Photoshop
 
                     </p>
@@ -405,12 +405,12 @@ the character plus lights.
                     alt=''
                   />
                   <div className='space-y-10 px-10 md:px-10 max-w-6xl'>
-                    <h4 className='sm:text-4xl text-2xl font-semibold text-center'>
+                    <h4 className='sm:text-4xl text-xl font-semibold text-center'>
                       <span className='underline decoration-[#F7AB0A]/50'>
                       Project 16 out of 16:
                       </span> Tim Burtons website design
                     </h4>
-                    <p className='text-lg text-center md:text-left'>
+                    <p className='text-base text-center md:text-left'>
                       Design made in Photoshop.
 
                     </p>
