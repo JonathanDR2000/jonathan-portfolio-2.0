@@ -321,7 +321,7 @@ the character plus lights.
                 </div>
                 
                 <div className='w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen'> 
-                <Link href='https://jonathandr2000.github.io/TimBurton/'>
+                <Link href='https://disney-clone3.vercel.app/'>
                   <motion.img className='xl:w-[1280px] xl:h-[585px]'
                    initial={{ y: -300, opacity: 0,}}
                    transition={{duration: 1.2,}}
@@ -346,7 +346,7 @@ the character plus lights.
                    
                 </div>
                 <div className='w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen'> 
-                <Link href='https://disney-clone3.vercel.app/'>
+                <Link href='https://jonathandr2000.github.io/TimBurton/'>
                   <motion.img className='xl:w-[1280px] xl:h-[585px]'
                    initial={{ y: -300, opacity: 0,}}
                    transition={{duration: 1.2,}}
